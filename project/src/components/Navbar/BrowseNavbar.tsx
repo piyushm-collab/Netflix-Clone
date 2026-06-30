@@ -129,6 +129,12 @@ const BrowseNavbar: React.FC = () => {
             >
               My List
             </Link>
+            <Link 
+              to="/plans" 
+              className={`nav-link ${isActiveLink('/plans') ? 'active' : ''}`}
+            >
+              Plans
+            </Link>
           </nav>
         </div>
         
